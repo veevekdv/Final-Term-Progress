@@ -1,4 +1,5 @@
 # Tutorials Followed:
+- Github Tutorial: https://www.youtube.com/watch?v=tRZGeaHPoaw
 - MVC Model: https://www.youtube.com/watch?v=DUg2SWWK18I
 - REST APIs: https://www.youtube.com/watch?v=OJdFj5hPAKs
 - Vapor: https://www.youtube.com/watch?v=932LdhYEqyY
