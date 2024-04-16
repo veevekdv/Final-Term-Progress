@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "storage": {
+      "APIKeyDB": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "auth": {
+      "miniEventAuth": [
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "cognitoUserPoolId",
+      "environmentVariableName": "COGNITO_USER_POOL_ID"
+    },
+    {
+      "cloudFormationParameterName": "cognitoClientId",
+      "environmentVariableName": "COGNITO_CLIENT_ID"
+    }
+  ]
+}

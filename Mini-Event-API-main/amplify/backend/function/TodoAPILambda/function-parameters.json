@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "storage": {
+      "APIKeyDB": [
+        "read"
+      ],
+      "TodoListDB": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "TodoListItemDB": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

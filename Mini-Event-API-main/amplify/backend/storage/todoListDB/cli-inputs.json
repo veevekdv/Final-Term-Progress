@@ -1,0 +1,22 @@
+{
+  "resourceName": "TodoListDB",
+  "tableName": "TodoListDB",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [
+    {
+      "name": "ByOwnerId",
+      "partitionKey": {
+        "fieldName": "OwnerId",
+        "fieldType": "string"
+      },
+      "sortKey": {
+        "fieldName": "CreatedAt",
+        "fieldType": "number"
+      }
+    }
+  ],
+  "triggerFunctions": []
+}
