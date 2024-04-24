@@ -1,15 +1,15 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const app = express();
-const todoRoutes = require('./routes/todoRoutes');
+const authRoutes = require('./routes/authRoutes');
 
-mongoose.connect('your-mongodb-connection-string', { useNewUrlParser: true });
+const app = express();
+
+mongoose.connect('your-mongodb-connection-string', { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use(express.json()); // Middleware to parse JSON
 
-app.use('/todos', todoRoutes);
+app.use('/auth', authRoutes);
 
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
- 
