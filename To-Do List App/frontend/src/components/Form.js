@@ -28,4 +28,4 @@ function Form({ addTodo }) {
   );
 }
 
-export default AddTodoForm;
+export default Form;
