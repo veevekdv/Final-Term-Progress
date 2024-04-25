@@ -1,3 +1,6 @@
+# Description
+Over the past month, I've been diligently working on a project that builds on the knowledge I gained from the HackRPI API workshop. My goal was to develop a straightforward application featuring both a front end and a back end. I particularly wanted to improve my skills in React, as I initially found the front end development challenging. Additionally, I was eager to deepen my understanding of authentication mechanisms, so I implemented these in the back end as per what I learned in the workshop.
+
 # Tutorials Followed:
 - React Tutorial: https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
 - NodeJS Tutorial: https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU
